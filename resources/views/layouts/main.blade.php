@@ -14,7 +14,7 @@
   </head>
   <body>
     <!--navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #b563e4" >
+   <!-- <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #b563e4" >
         <div class="container">
           <a class="navbar-brand" href="#">Clara Adrianaa</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,8 +34,9 @@
             </ul>
           </div>
         </div>
-      </nav>
+      </nav>-->
       <!--Akhir Navbar-->
+      @include('partials.navi')
 <div class="container mt-4">
     @yield('container')
 </div>
