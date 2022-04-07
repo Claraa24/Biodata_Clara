@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ClaraController;
 /*
 |--------------------------------------------------------------------------
@@ -13,8 +14,8 @@ use App\Http\Controllers\ClaraController;
 |
 */
 
-Route::get('/home', [ClaraController::class, 'index'] );
-Route::get('/biodata', [ClaraController::class, 'biodata']);
+Route::get('/', [ClaraController::class, 'index'] );
+Route::get('/biodata', [HomeController::class, 'index']);
 Route::get('/contact', [ClaraController::class, 'contact']);
 
 
